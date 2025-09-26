@@ -40,6 +40,8 @@
         text-align: center;
         background-color: #0D0D0D;
         border: 1px solid #fff;
+        border-left: 0px;
+        border-right: 0px;
     }
     .sitemapList li {
         display: inline-block;
@@ -63,11 +65,10 @@ body a:hover  {
 .windows {
     width: var(--content-container);
     background-color: #03b1fc;
-    margin: 2px;
-    color: #fff;
     background-image: url(https://gildedware.net/pageassets/window%20buttons.png);
     background-repeat: no-repeat;
     background-position: top right;
+    margin: 2px;
     padding: 10px 10px 10px 10px;
     font-size: 12px;
 }
@@ -81,11 +82,11 @@ body a:hover  {
     margin: 5px;
     width: 25%;
     border: 1px solid #fff;
-    background-image: url(https://rivendell.neocities.org/backgrounds/stars1.gif);  
 }
 
 .bodyContainer{
     display: flex;
+    margin: 5px;
 }
 .textWrapper{
     color: white;
