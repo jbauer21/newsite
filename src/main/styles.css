@@ -38,7 +38,6 @@
     .sitemapList{
         margin: 0 auto;
         text-align: center;
-  
         background-color: #0D0D0D;
         border: 1px solid #fff;
     }
@@ -56,3 +55,50 @@
     color: white;
     font-size: 150%;
   }
+
+body a:hover  {
+    text-decoration: underline;
+}
+
+.windows {
+    width: var(--content-container);
+    background-color: #03b1fc;
+    margin: 2px;
+    color: #fff;
+    background-image: url(https://gildedware.net/pageassets/window%20buttons.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+}
+.rightBodyElement{
+    margin: 5px;
+    max-width: 75%;
+    border: 1px solid #fff;
+        background-image: url(https://rivendell.neocities.org/backgrounds/stars1.gif);  
+}
+.leftBodyElement{
+    margin: 5px;
+    width: 25%;
+    border: 1px solid #fff;
+    background-image: url(https://rivendell.neocities.org/backgrounds/stars1.gif);  
+}
+
+.bodyContainer{
+    display: flex;
+}
+.textWrapper{
+    color: white;
+}
+.textWrapper{
+    margin: 25px;
+    display: block;
+    text-align: justify;
+}
+
+.heading {
+
+    font-size: 4.5em;
+    font-family: MedodicaRegular, sans-serif;
+    color: white;
+}
