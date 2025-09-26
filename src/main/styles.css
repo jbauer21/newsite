@@ -1,0 +1,58 @@
+    @font-face {
+        font-family: 'MedodicaRegular'; /* A name you choose for your font */
+        src: url('../../bin/fonts/MedodicaRegular.otf');
+        font-weight: normal; /* Define font weight if applicable */
+        font-style: normal; /* Define font style if applicable */
+        font-display: swap; /* Optimizes font loading behavior */
+    }
+
+    .banner {
+        background-color: #03b1fc;
+        padding: 10px;
+        max-height: 200px;
+        margin: 0;
+        display: block;
+        border: black;
+    }
+
+    .banner h1{
+        font-family: MedodicaRegular, sans-serif;
+        color: #029adb;
+        font-size: 800%;
+        text-align: right;
+
+    }
+    
+    .container{
+        background-color: black;
+        border: 1px solid #fff;
+    }
+    .wrapper{
+        border:white;
+        border-radius: 10px;
+        max-width: 1500px; 
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .sitemapList{
+        margin: 0 auto;
+        text-align: center;
+  
+        background-color: #0D0D0D;
+        border: 1px solid #fff;
+    }
+    .sitemapList li {
+        display: inline-block;
+        padding-right: 10%;
+    }
+  body{
+    margin: 0;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/066/635/462/original/den-pixelart-watertiles.gif?1693393538);
+  }
+  body a{
+    font-family: MedodicaRegular, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+  }
