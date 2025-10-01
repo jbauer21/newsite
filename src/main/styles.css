@@ -87,7 +87,7 @@ body a:hover  {
 .windows {
     width: var(--content-container);
     background-color: #03b1fc;
-    background-image: url(https://gildedware.net/pageassets/window%20buttons.png);
+    background-image: url("../../imgs/window_buttons.png");
     background-repeat: no-repeat;
     background-position: top right;
     margin: 2px;
