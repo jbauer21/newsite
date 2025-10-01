@@ -97,14 +97,14 @@ body a:hover  {
 
 .centerBodyElement{
     margin: 5px;
-    max-width: 40%;
+    max-width: 50%;
     height: 50%;
     border: 1px solid #fff;
     background-image: url(https://rivendell.neocities.org/backgrounds/stars1.gif);  
 }
 .leftBodyElement{
     margin: 5px;
-    width: 30%;
+    width: 20%;
     border: 1px solid #fff;
 }
 
@@ -118,31 +118,53 @@ body a:hover  {
     display: flex;
     margin: 5px;
 }
-.textWrapper{
-    margin: 25px;
+.textWrapperJustify{
     display: block;
     text-align: justify;
+    overflow: auto;
 }
-.textWrapper p{
+.textWrapperJustify p{
+    margin: 25px;
     color: white;
     font-family: MSPGothic, sans-serif;
     max-width: 50%;
 }
+.textWrapperLeft p{
+    color: white;
+    font-family: MSPGothic, sans-serif;
+ 
+}
+.textWrapperLeft{
+    display: block;
+    text-align: left;
+    font-size:small;
+    overflow: auto;
+    max-width: 100%;
+    margin: 5px;
+}
+#updateText{
+    margin: 0px;
+    text-align: left;
+}
 
+#updateHeader{
+    font-family: MedodicaRegular, sans-serif;
+    color: white;
+}
 .heading {
-    font-size: 3em;
+    font-size: 3.9em;
     font-family: MedodicaRegular, sans-serif;
     color: white;
     margin-bottom: 0;
 }
 #pikachu{
  display: block;
-  height: 140px;
-  margin: 0;
+  height: 120px;
+  margin-bottom: 20px;
   
 }
 .centerBodyElementSub{
     display: flex;
     align-items: flex-start;
-    gap: 50px;
+    gap: 40px;
 }
