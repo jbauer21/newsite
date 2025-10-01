@@ -22,7 +22,7 @@
         border: black;
     }
     .footer{
-            height: auto;
+
             margin-top: 10px;
             margin-bottom: 10px;
             border-top: 1px solid;
@@ -93,26 +93,24 @@ body a:hover  {
     margin: 2px;
     padding: 10px 10px 10px 10px;
     font-size: 12px;
-    max-height: 3px;
 }
 
-.windows p{
-    margin: 0;
-    padding: 0;
-    height:50%;
-    font-family: MedodicaRegular, sans-serif;
-    text-align: top;
-
-}
-.rightBodyElement{
+.centerBodyElement{
     margin: 5px;
-    max-width: 75%;
+    max-width: 40%;
+    height: 50%;
     border: 1px solid #fff;
     background-image: url(https://rivendell.neocities.org/backgrounds/stars1.gif);  
 }
 .leftBodyElement{
     margin: 5px;
-    width: 25%;
+    width: 30%;
+    border: 1px solid #fff;
+}
+
+.rightBodyElement{
+    margin: 5px;
+    width: 314px;
     border: 1px solid #fff;
 }
 
@@ -128,11 +126,23 @@ body a:hover  {
 .textWrapper p{
     color: white;
     font-family: MSPGothic, sans-serif;
+    max-width: 50%;
 }
 
 .heading {
-
-    font-size: 4.5em;
+    font-size: 3em;
     font-family: MedodicaRegular, sans-serif;
     color: white;
+    margin-bottom: 0;
+}
+#pikachu{
+ display: block;
+  height: 140px;
+  margin: 0;
+  
+}
+.centerBodyElementSub{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
 }
