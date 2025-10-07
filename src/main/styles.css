@@ -40,7 +40,6 @@
 }
 
 .container {
-  background-color: black;
   border: 1px solid #fff;
 }
 .wrapper {
@@ -52,6 +51,7 @@
   margin: 0 auto;
 }
 .sitemapList {
+  opacity: 0.8;
   margin: 0 auto;
   text-align: center;
   background-color: #0d0d0d;
@@ -60,12 +60,16 @@
   border-right: 0px;
 }
 .sitemapList li {
+  opacity: 1;
   display: inline-block;
   padding-right: 10%;
 }
 body {
   margin: 0;
-  background-image: url(https://cdna.artstation.com/p/assets/images/images/066/635/462/original/den-pixelart-watertiles.gif?1693393538);
+  background-image: url(https://i.redd.it/8ldoa2yk0yg11.jpg);
+  background-size: cover;
+  background-position: center top;
+  image-rendering: pixelated crisp-edges;
 }
 body a {
   font-family: MedodicaRegular, sans-serif;
@@ -132,10 +136,11 @@ body a:hover {
 }
 
 .bodyContainer {
+  background-color: black;
+  opacity: 0.8;
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  background-image: url(https://bettysgraphics.neocities.org/images/backgrounds/pattern%20193.gif);
 }
 .textWrapperJustify {
   display: block;

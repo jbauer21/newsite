@@ -67,9 +67,10 @@
 }
 body {
   margin: 0;
-  background-image: url(https://images5.alphacoders.com/682/thumb-1920-682617.jpg);
+  background-image: url(https://motionbgs.com/media/7392/undertale-snowy-forest.3840x2160.jpg);
+  background-size: cover;
+  background-position: center top;
   background-color: black;
-  background-position: center -100vh;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
