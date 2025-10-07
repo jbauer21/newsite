@@ -21,7 +21,6 @@
   border: black;
 }
 .footer {
-  margin-top: 10px;
   margin-bottom: 10px;
   border-top: 1px solid;
   color: white;
@@ -136,6 +135,7 @@ body a:hover {
   display: flex;
   align-items: flex-start;
   gap: 10px;
+  background-image: url(https://bettysgraphics.neocities.org/images/backgrounds/pattern%20193.gif);
 }
 .textWrapperJustify {
   display: block;

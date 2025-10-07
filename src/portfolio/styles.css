@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "MedodicaRegular"; /* A name you choose for your font */
+  src: url("../../bin/fonts/MedodicaRegular.otf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+@font-face {
+  font-family: "MSPGothic";
+  src: url("../../bin/fonts/ms-pgothic-regular.ttf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+.banner {
+  background-color: #803ac9;
+  padding: 10px;
+  max-height: 200px;
+  margin: 0;
+  display: block;
+  border: black;
+}
+.footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid;
+  color: white;
+}
+
+.footer p {
+  font-family: MedodicaRegular, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-family: MedodicaRegular, sans-serif;
+  color: #5d2c91;
+  font-size: 800%;
+  text-align: right;
+}
+
+.container {
+  background-color: black;
+  border: 1px solid #fff;
+}
+.wrapper {
+  border: white;
+  border-radius: 10px;
+  max-width: 1100px;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+}
+.sitemapList {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #0d0d0d;
+  border: 1px solid #fff;
+  border-left: 0px;
+  border-right: 0px;
+}
+.sitemapList li {
+  align-items: center;
+  display: inline-block;
+  padding-right: 10%;
+}
+body {
+  margin: 0;
+  background-image: url(https://images5.alphacoders.com/682/thumb-1920-682617.jpg);
+  background-color: black;
+  background-position: center -100vh;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+body a {
+  font-family: MedodicaRegular, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+.windows {
+  width: var(--content-container);
+  background-color: #803ac9;
+  background-image: url("../../imgs/window_buttons.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 10px;
+  border: 2px solid #5d2c91;
+  border-style:outset;
+  font-size: 12px;
+}
+
+.portfolioContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.portfolioElement { 
+    margin-right: 10px;
+}  
+
+
