@@ -13,7 +13,8 @@
   font-display: swap; /* Optimizes font loading behavior */
 }
 .banner {
-  background-color: #803ac9;
+  background-image: url(https://art.pixilart.com/thumb/d39d83b3546c7f4.png);
+  background-size: 100px;
   padding: 10px;
   max-height: 200px;
   margin: 0;
@@ -35,13 +36,14 @@
 
 .banner h1 {
   font-family: MedodicaRegular, sans-serif;
-  color: #5d2c91;
+  color: #803ac9;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
   font-size: 800%;
   text-align: right;
 }
 
 .container {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
   border: 1px solid #fff;
 }
 .wrapper {
@@ -67,9 +69,9 @@
 }
 body {
   margin: 0;
-  background-image: url(https://motionbgs.com/media/7392/undertale-snowy-forest.3840x2160.jpg);
+  background-image: url(https://images5.alphacoders.com/682/thumb-1920-682617.jpg);
   background-size: cover;
-  background-position: center top;
+  background-position: center 200px;
   background-color: black;
   image-rendering: pixelated;
   image-rendering: crisp-edges;

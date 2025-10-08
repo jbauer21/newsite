@@ -13,7 +13,7 @@
   font-display: swap; /* Optimizes font loading behavior */
 }
 .banner {
-  background-color: #03b1fc;
+  background-image: url(https://media.istockphoto.com/id/938695332/photo/fluffy-clouds-hd-seamless-tiles-pattern-01.jpg?s=612x612&w=0&k=20&c=yOlzgKBaQYDn0hdy6VZpzTdhC5aHlTf2umXGRKR8LPI=);
   padding: 10px;
   max-height: 200px;
   margin: 0;
@@ -34,12 +34,14 @@
 
 .banner h1 {
   font-family: MedodicaRegular, sans-serif;
-  color: #029adb;
+  color: #03b1fc;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
   font-size: 800%;
   text-align: right;
 }
 
 .container {
+  background-color: rgba(0, 0, 0, 0.8);
   border: 1px solid #fff;
 }
 .wrapper {
@@ -51,10 +53,8 @@
   margin: 0 auto;
 }
 .sitemapList {
-  opacity: 0.8;
   margin: 0 auto;
   text-align: center;
-  background-color: #0d0d0d;
   border: 1px solid #fff;
   border-left: 0px;
   border-right: 0px;
@@ -136,8 +136,6 @@ body a:hover {
 }
 
 .bodyContainer {
-  background-color: black;
-  opacity: 0.8;
   display: flex;
   align-items: flex-start;
   gap: 10px;
