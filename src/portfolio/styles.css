@@ -12,6 +12,13 @@
   font-style: normal; /* Define font style if applicable */
   font-display: swap; /* Optimizes font loading behavior */
 }
+@font-face {
+  font-family: "MonsterFriendBack";
+  src: url("../../bin/fonts/MonsterFriendBack.otf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
 .banner {
   background-image: url(https://art.pixilart.com/thumb/d39d83b3546c7f4.png);
   background-size: 100px;
@@ -43,6 +50,8 @@
 }
 
 .container {
+  z-index: 1;
+  position: relative;
   background-color: rgba(0, 0, 0, 0.8);
   border: 1px solid #fff;
 }
@@ -70,8 +79,9 @@
 body {
   margin: 0;
   background-image: url(https://images5.alphacoders.com/682/thumb-1920-682617.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 200px;
+  background-position: center 400px;
   background-color: black;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
@@ -109,6 +119,79 @@ body a:hover {
 
 .portfolioElement { 
     margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    background-image: 
+        url(https://d2bzx2vuetkzse.cloudfront.net/fit-in/0x450/unshoppable_producs/f063ca6a-e84d-4807-acdb-bb5de0c5017a.png),
+        linear-gradient(to bottom,  #5d2c91, black);
 }  
 
+.portfolioText {
+  margin: 15px;
+  background-image: linear-gradient(to bottom, #5d2c91, #04ff00);
+  -webkit-background-clip: text; /* Chrome, Safari */
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent; /* Required for Webkit browsers */
+}
 
+.portfolioText h1{
+    color:white;
+    font-family: MedodicaRegular, sans-serif;
+    font-style: bold;
+    font-size: 7vh;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+.portfolioText h2{
+    color:white;
+    font-style: italic;
+    font-size: 3vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: MedodicaRegular, sans-serif;
+
+}
+.portfolioText h3{
+    color:white;
+    font-family: MedodicaRegular, sans-serif;
+    font-size: 3vh;
+    margin-bottom: 5px;
+}
+
+.portfolioImage{
+    width:100%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    height: auto;
+}
+.portfolioImageContainer{
+    margin:10px;
+}
+
+.portfolioTextContainer{
+    margin:10px;
+    border: 1px solid #fff;
+    background-image: url(../../imgs/glowingbackground.gif);
+    background-size: 100%;
+    background-position: center top;
+}
+
+.caseStudyButton {
+  font-family: 'MedodicaRegular' , sans-serif;
+  font-size: 24px;
+  color: yellow;
+  background-color: black;
+  border: 3px solid yellow;
+  padding: 12px 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.caseStudyButton:hover {
+  transform: scale(1.05);
+}
