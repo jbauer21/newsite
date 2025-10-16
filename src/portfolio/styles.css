@@ -123,6 +123,7 @@ body a:hover {
 .portfolioElement { 
     margin-right: 10px;
     margin-bottom: 10px;
+    max-height: fit-content;
     border: 1px solid #fff;
     background-image: 
         url(https://d2bzx2vuetkzse.cloudfront.net/fit-in/0x450/unshoppable_producs/f063ca6a-e84d-4807-acdb-bb5de0c5017a.png),
@@ -180,6 +181,7 @@ body a:hover {
     background-size: 100%;
     background-position: center top;
     height: auto;
+
 }
 
 .caseStudyButton {
@@ -194,7 +196,6 @@ body a:hover {
   letter-spacing: 2px;
   display: inline-block;
   margin-top: 10px;
-  transform
 }
 
 .caseStudyButton:hover {
