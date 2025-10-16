@@ -79,10 +79,10 @@ url(https://art.pixilart.com/thumb/d39d83b3546c7f4.png);
 }
 body {
   margin: 0;
-  background-image: url(https://images5.alphacoders.com/682/thumb-1920-682617.jpg);
+  background-image: url(../../imgs/undertalecropped.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 400px;
+  background-size: fill;
+  background-position: center 50vh;
   background-color: black;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
@@ -118,6 +118,10 @@ body a:hover {
     overflow-y: auto;
     max-height: 60vh;
     grid-template-columns: 50% 50%;
+}
+
+.portfolioContainer::-webkit-scrollbar{
+  display: none;
 }
 
 .portfolioElement { 
