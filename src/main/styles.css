@@ -13,7 +13,7 @@
   font-display: swap; /* Optimizes font loading behavior */
 }
 .banner {
-  background-image: url(https://media.istockphoto.com/id/938695332/photo/fluffy-clouds-hd-seamless-tiles-pattern-01.jpg?s=612x612&w=0&k=20&c=yOlzgKBaQYDn0hdy6VZpzTdhC5aHlTf2umXGRKR8LPI=);
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(https://media.istockphoto.com/id/938695332/photo/fluffy-clouds-hd-seamless-tiles-pattern-01.jpg?s=612x612&w=0&k=20&c=yOlzgKBaQYDn0hdy6VZpzTdhC5aHlTf2umXGRKR8LPI=);
   padding: 10px;
   max-height: 200px;
   margin: 0;
@@ -64,6 +64,7 @@
   display: inline-block;
   padding-right: 10%;
 }
+
 body {
   margin: 0;
   background-image: url(https://i.redd.it/8ldoa2yk0yg11.jpg);
