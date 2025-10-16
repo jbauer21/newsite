@@ -68,7 +68,7 @@
 body {
   margin: 0;
   background-image: url(https://i.redd.it/8ldoa2yk0yg11.jpg);
-  background-size: auto auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top right;
 }
