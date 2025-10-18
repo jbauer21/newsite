@@ -191,3 +191,7 @@ body a:hover {
 .caseStudyButton:hover {
   transform: scale(1.05);
 }
+
+#introText{
+  background-position: center bottom;
+}
