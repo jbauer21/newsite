@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "MedodicaRegular"; /* A name you choose for your font */
+  src: url("../../bin/fonts/MedodicaRegular.otf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+.banner {
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%), 
+  url(https://www.textures.com/system/gallery/photos/Nature/Leaves%20Dead/50170/LeavesDead0033_1_download600.jpg);
+  padding: 10px;
+  max-height: 200px;
+  margin: 0;
+  display: block;
+  border: black;
+}
+.footer {
+  margin-bottom: 10px;
+  border-top: 1px solid;
+  color: white;
+}
+
+.footer p {
+  font-family: MedodicaRegular, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-family: MedodicaRegular, sans-serif;
+  color: #ff6200;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+  font-size: 800%;
+  text-align: right;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #fff;
+}
+.wrapper {
+  border: white;
+  border-radius: 10px;
+  max-width: 1100px;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+}
+.sitemapList {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #fff;
+  border-left: 0px;
+  border-right: 0px;
+}
+.sitemapList li {
+  opacity: 1;
+  display: inline-block;
+  padding-right: 10%;
+}
+
+body {
+  margin: 0;
+  background-image: url(../../imgs/nitw-background.png);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+body a {
+  font-family: MedodicaRegular, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+.windows {
+  width: var(--content-container);
+  background-color: #ff6200;
+  background-image: url("../../imgs/window_buttons.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 10px;
+  border: 2px solid #bd4900;
+  border-style:outset;
+  font-size: 12px;
+}
+
+.bodyContainer {
+  margin: 10px;
+}
+
