@@ -69,6 +69,7 @@ body {
   background-repeat: no-repeat;
   background-size: fill;
   background-position: center 50vh;
+  
   background-color: black;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
@@ -192,6 +193,3 @@ body a:hover {
   transform: scale(1.05);
 }
 
-#introText{
-  background-position: center bottom;
-}

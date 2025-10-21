@@ -61,6 +61,7 @@
 
 body {
   margin: 0;
+  min-height: 100vh;
   background-image: url(../../imgs/mirrors-edge.png);
   background-size: 100vw 100%;
   background-repeat: no-repeat;
