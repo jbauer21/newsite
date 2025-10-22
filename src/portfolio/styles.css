@@ -193,3 +193,7 @@ body a:hover {
   transform: scale(1.05);
 }
 
+.albumCover{
+  width:50%;
+  height: auto;
+}
