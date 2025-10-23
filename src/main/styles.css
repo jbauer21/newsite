@@ -101,6 +101,7 @@ body a:hover {
 }
 
 .columnElement{
+  height: 100%;
   background-image: 
     url(https://d2bzx2vuetkzse.cloudfront.net/fit-in/0x450/unshoppable_producs/f063ca6a-e84d-4807-acdb-bb5de0c5017a.png),
     linear-gradient(to bottom,  #025C83, black);
@@ -112,7 +113,7 @@ body a:hover {
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
   color:#fff;
-  font-size: 5.5em;
+  font-size: 6em;
   margin: 10px;
 }
 .columnElement img{
@@ -131,6 +132,7 @@ body a:hover {
   image-rendering: pixelated, crisp-edges;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), linear-gradient(to top, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(https://i.ytimg.com/vi/lr9lvz1g7sc/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBMgTCh_MA8=&rs=AOn4CLAO_AHF2uX1RXuosXjpNAfXAK2kIg);
 }
+
 
 .textWindow h3{
   font-family: MedodicaRegular, sans-serif;
@@ -155,7 +157,7 @@ body a:hover {
 
 #updates{
   border-radius: 5px;
-  max-height: 81%; 
+  max-height: 200px; 
   overflow: auto;
   background-position: center top;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), linear-gradient(to top, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(https://i.pinimg.com/originals/eb/ed/a0/ebeda0827ce66b65213dd732a1e59d97.gif);
@@ -173,7 +175,6 @@ body a:hover {
   height: 50%;
   margin-bottom: 10px;
 }
-
 
 .audioWrap { 
   margin: 0;
@@ -223,14 +224,25 @@ background-color: transparent;
 }
 
 .albumCover{
+  display: block;
   width: auto;
   height: 100%;
   margin: 10px;
-  /*fix this dogshit*/
-  margin-left: 8px;
+  box-sizing: border-box;
   margin-bottom: 0;
 }
 
 #musicContainer{
-  max-height: 50%;
+  max-height: 47.5%;
 }
+
+#chattable{
+  width:100%;
+  height:95%;
+  border: none;
+}
+
+.rightColumn{
+  height: 100%;
+}
+

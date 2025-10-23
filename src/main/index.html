@@ -4,7 +4,12 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="preload" href="../../bin/fonts/MedodicaRegular.otf" as="font" type="font/otf"/>
         <link rel="preload" href="../../imgs/nitw-background.png" as="image" type="image/png"/>  
-        <script src="scripts.js"></script>
+        <script src="https://iframe.chat/scripts/main.min.js"></script>
+        <script>
+            chattable.initialize({
+                theme: "Hacker Terminal"
+            });
+        </script>
     </head>
     <body>
         <div class="wrapper">
@@ -36,28 +41,29 @@
                         <div class = "columnElement" id="updateContainer">
                             <div class="windows"></div>
                             <div class="textWindow" id="updates">
+                                <h3>10/22/2025: FINISHED THE HOMEPAGE!! Now I just need to change this stupid chattable theme. </h3>
                                 <h3>10/20/2025: Added the about page so I can, you know, talk about myself or something!</h3>
                                 <h3>10/16/2025: Finally getting rid of my old junker ass AI generated site! Making this one all on my own!</h3>
-                                <br>
-                                <br>
                             </div>
                         </div>
                           <div class = "columnElement" id="musicContainer">
-                            <div class="windows"></div>
-                            <div class="albumCover">
-                                <img src = "../../imgs/beach.gif">
-                            </div>
-                            <div class = "titleText">
-                                <h2>Nostalgia</h2>
-                                <h3>Unknown</h3>
-                            </div>
-                            <div class="audioWrap">
-                                <audio id="myAudio" class="audio" controls
-                                        preload="none"
-                                        controlslist="nodownload noplaybackrate">
-                                    <source src="../../bin/audio/homepage.mp3" type="audio/mpeg">
-                                    Your browser does not support the audio element.
-                                </audio>
+                            <div class = "musicContainer">
+                                <div class="windows"></div>
+                                <div class="albumCover">
+                                    <img src = "../../imgs/beach.gif">
+                                </div>
+                                <div class = "titleText">
+                                    <h2>Nostalgia</h2>
+                                    <h3>Unknown</h3>
+                                </div>
+                                <div class="audioWrap">
+                                    <audio id="myAudio" class="audio" controls
+                                            preload="none"
+                                            controlslist="nodownload noplaybackrate">
+                                        <source src="../../bin/audio/homepage.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -79,6 +85,7 @@
                 <div class = "rightColumn">
                         <div class ="columnElement">
                             <div class="windows"></div>
+                            <iframe src="https://iframe.chat/embed?chat=28559419" id="chattable"></iframe>
                         </div>
                     </div>
                 </div>
