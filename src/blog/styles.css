@@ -94,3 +94,21 @@ body a:hover {
   margin: 10px;
 }
 
+.textContainer{
+  text-align: center;
+  background-image: url(https://images.alphacoders.com/817/81783.jpg);
+  margin: 10px;
+  border: 1px solid #fff;
+  background-position: left 550px;
+}
+
+.textContainer h1{
+  color: white;
+  font-family: "MedodicaRegular", sans-serif;
+  font-size: 89.76px;
+
+}
+
+.centralContainer{
+    border: 1px solid #fff;
+}

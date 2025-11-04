@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "Doto"; /* A name you choose for your font */
+  src: url("../../bin/fonts/Doto-VariableFont_ROND.ttf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+
+@font-face {
+  font-family: "SourceSansPro"; /* A name you choose for your font */
+  src: url("../../bin/fonts/SourceSans3-VariableFont_wght.ttf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+
+.banner {
+  background-color: #000000;
+  padding: 10px;
+  max-height: 200px;
+  margin: 0;
+  display: block;
+  border: black;
+}
+.footer {
+  margin-bottom: 10px;
+  border-top: 1px solid;
+  color: white;
+}
+
+.footer p {
+  font-family: SourceSansPro, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-family: Doto, sans-serif;
+  color: #FFFFFF;
+  font-size: 127.88px;
+  text-align: right;
+}
+
+.container {
+  background-color: #000000;
+  border: 1px solid #fff;
+}
+.wrapper {
+  border: white;
+  border-radius: 10px;
+  max-width: 1100px;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+}
+.sitemapList {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: white;
+  border-left: 0px;
+  border-right: 0px;
+}
+.sitemapList li {
+  opacity: 1;
+  display: inline-block;
+  padding-right: 10%;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background-image: url(https://media.wired.com/photos/6412391886d759ccf3cdd25c/master/pass/W30-HERO.gif);
+  min-height: 100vh;
+  background-size: 100vw 100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+body a {
+  font-family: SourceSansPro, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+.windows-white {
+  width: var(--content-container);
+  background-color: #FFFFFF;
+  background-image: url("../../imgs/window_buttons.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.windows-black {
+  width: var(--content-container);
+  background-color: #000000; 
+  background-image: url("../../imgs/window_buttons_white.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 15x;
+}
+
+.windows-black {
+  width: var(--content-container);
+  background-color: #000000; 
+  background-image: url("../../imgs/window_buttons_white.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 15px;
+}
+
+.introContainerWhite{
+  box-shadow: 
+  3px 3px  #FFFFFF, 
+  6px 6px  #000000,
+  9px 9px  #FFFFFF,
+  12px 12px  #000000; 
+  border: 3px solid #000; 
+  background-color: white;
+}
+
+.introContainerBlack{
+  box-shadow: 
+  3px 3px  #000, 
+  6px 6px  #fff,
+  9px 9px  #000,
+  12px 12px  #fff; 
+  border: 3px solid #FFF; 
+  background-color: black;
+}
+
+.introContainerBlue{
+  box-shadow: 
+  3px 3px  #FFFFFF, 
+  6px 6px  #000000,
+  9px 9px  #FFFFFF,
+  12px 12px  #000000; 
+  border: 3px solid #fff; 
+  background-color: blue;
+}
+
+#julianIntroContainer h1{
+  color:white;
+  font-family: Doto;
+  font-size: 61.04px; 
+  margin: 10px; 
+}
+
+#julianIntroContainer{
+  width: 50%;
+  margin: 20px;
+}
+
+#julianIntroContainer2 h3{
+  color:black;
+  font-family: SourceSansPro;
+  font-size: 39.06px; 
+  margin: 10px; 
+}
+
+#julianIntroContainer2{
+  width: 50%;
+  margin: 20px;
+}

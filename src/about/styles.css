@@ -90,7 +90,68 @@ body a:hover {
   font-size: 12px;
 }
 
-.bodyContainer {
+.bodyContainer{
   margin: 10px;
+  background-image: 
+    url(https://d2bzx2vuetkzse.cloudfront.net/fit-in/0x450/unshoppable_producs/f063ca6a-e84d-4807-acdb-bb5de0c5017a.png),
+    linear-gradient(to bottom,  #bd4900, black);
+    border: 1px solid #fff;
 }
 
+.flexContainer{
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+
+
+.flexTextElement h1{
+  font-family: "MedodicaRegular";
+  color: white;
+  text-align: center;
+  font-size: 89.76px;
+  margin: 15px;
+}
+.flexImageElement{
+  width: 30%;
+  height: auto;
+}
+
+.vertContainer{
+  width: 100%;
+  height: auto;
+}
+
+#banner{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(../../imgs/bannerBackground.png);
+  background-size: cover;
+  height: fit-content;
+  margin-left: 10px;
+  border: 1px solid #fff;
+  width: 98%;
+}
+#contentBox{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(../../imgs/nitwBackground.jpg);
+  background-size: cover;
+  height: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  width: 98%;
+}
+#contentBox p{
+  color:white;
+  font-family: "MedodicaRegular", sans-serif;
+  margin: 10px;
+  font-size: 21.33px;
+}
+
+img{
+  margin: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
