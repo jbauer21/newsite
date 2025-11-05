@@ -42,7 +42,7 @@
 }
 
 .container {
-  background-color: #000000;
+  background-color: rgba(0,0,0,0.8);
   border: 1px solid #fff;
 }
 .wrapper {
@@ -65,17 +65,19 @@
   opacity: 1;
   display: inline-block;
   padding-right: 10%;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: SourceSansPro;
 }
 
 body {
   margin: 0;
-  background-image: url(https://media.wired.com/photos/6412391886d759ccf3cdd25c/master/pass/W30-HERO.gif);
+  background-image: url(../../imgs/asciiBackground.gif);
   min-height: 100vh;
   background-size: 100vw 100%;
   background-repeat: no-repeat;
   background-position: top right;
 }
+
 body a {
   font-family: SourceSansPro, sans-serif;
   text-decoration: none;
@@ -94,7 +96,6 @@ body a:hover {
   background-repeat: no-repeat;
   background-position: top right;
   padding: 10px;
-  font-size: 12px;
 }
 
 .windows-black {
@@ -103,17 +104,9 @@ body a:hover {
   background-image: url("../../imgs/window_buttons_white.png");
   background-repeat: no-repeat;
   background-position: top right;
-  padding: 15x;
+  padding: 10px;
 }
 
-.windows-black {
-  width: var(--content-container);
-  background-color: #000000; 
-  background-image: url("../../imgs/window_buttons_white.png");
-  background-repeat: no-repeat;
-  background-position: top right;
-  padding: 15px;
-}
 
 .introContainerWhite{
   box-shadow: 
@@ -137,11 +130,11 @@ body a:hover {
 
 .introContainerBlue{
   box-shadow: 
-  3px 3px  #FFFFFF, 
-  6px 6px  #000000,
-  9px 9px  #FFFFFF,
-  12px 12px  #000000; 
-  border: 3px solid #fff; 
+  3px 3px  #000, 
+  6px 6px  #fff,
+  9px 9px  #000,
+  12px 12px  #fff; 
+  border: 3px solid #FFF; 
   background-color: blue;
 }
 
@@ -153,7 +146,6 @@ body a:hover {
 }
 
 #julianIntroContainer{
-  width: 50%;
   margin: 20px;
 }
 
@@ -165,6 +157,77 @@ body a:hover {
 }
 
 #julianIntroContainer2{
-  width: 50%;
   margin: 20px;
 }
+#julianIntroContainer3{
+  margin: 20px;
+}
+
+#julianIntroContainer3 a {
+  line-height:70px;
+  color:white;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: SourceSansPro;
+  font-size: 39.06px; 
+  margin: 10px; 
+}
+.centerFlex{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(calc(50% - .5rem), 18.75rem), 1fr));
+  align-items: stretch;
+}
+
+
+#charizardImageContainer{
+  justify-content: center;
+  margin: 20px;
+}
+
+#charizardAscii{
+  width: 100%;
+  height: 95%; 
+}
+
+.pixel_wrapper {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 9999;
+  pointer-events: none; 
+}
+
+.pixel_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.pixel {
+  width: 100%;
+  background: #000;
+  opacity: 1;      
+  transition: none; 
+  will-change: opacity;
+}
+
+.pixel.revealed {
+  opacity: 0;     
+}
+
+
+.active{
+    background: #000000;
+}
+
+.square{
+    position: absolute;
+    bottom: 100px;
+    right: 5vw;
+    width: 15vw;
+    height: 15vw;
+    animation: flash .3s infinite;
+}
+

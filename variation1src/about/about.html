@@ -2,11 +2,19 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-                <link rel="preload" href="../../bin/fonts/MedodicaRegular.otf" as="font" type="font/otf"/> 
-                <link rel="preload" href="https://i.redd.it/8ldoa2yk0yg11.jpg" as="image" type="image/jpg"/> 
-        <script src="scripts.js"></script>
+        <link rel="preload" href="../../bin/fonts/Doto-VariableFont_ROND.ttf" as="font" type="font/ttf"/>
+        <link rel="preload" href="../../bin/fonts/SourceSans3-VariableFont_wght.ttf" as="font" type="font/ttf"/>
+        <link rel="preload" href="../../imgs/asciiBackground.gif" as="image" type="image/gif"/>  
+        <script src="https://iframe.chat/scripts/main.min.js"></script>
+        <script src = "./scripts.js"></script>
+        <script>
+            chattable.initialize({
+                theme: "Hacker Terminal"
+            });
+        </script>
     </head>
     <body>
+        <div class="pixel_wrapper"></div>
         <div class="wrapper">
             <div class = "container">
                 <div class = "banner">
@@ -18,7 +26,7 @@
                                 <a href="../main/index.html">HOME</a>
                             </li>
                              <li>
-                                <a href="about.html" style="color:#ff6200;">ABOUT</a>
+                                <a href="./about.html"style="color:#0000FF;">ABOUT</a>
                             </li>
                              <li>
                                 <a href="../portfolio/portfolio.html">PORTFOLIO</a>
@@ -31,29 +39,30 @@
                             </li>
                         </ul>
                 </div>
-                <div class="bodyContainer">
-                    <div class="windows"></div>
-                    <div class ="flexContainer">
-                        <div class = "vertContainer">
-                            <div class="flexTextElement" id="banner">
-                                <h1>Hi! I'm Julian!</h1>
-                            </div>
-                            <div class="flexTextElement" id="contentBox">
-                                <div class="windows"></div>
-                                <p>I'm originally from Galveston, TX, but now I'm living in College Park, MD!</p>
-                                <p>Some things I like:</p>
-                                <p>    Games! My favorites are: Half Life 2, Portal, Undertale, and Night in the Woods</p>
-                                <p>    Music! I like EDM, Math Rock, Baroque, and anything that sounds good!</p>
-                                <p>    I'm a huge foodie. I love all kinds of cuisines. My favorites are Indian and Japanese.</p>
-                            </div>
+                <div class = "bodyContainer">
+                    <div class="gridContainer">
+                        <div class = "introContainerBlack" id  = "aboutTextContainer">
+                            <div class="windows-white"></div>
+                            <h1>Who is this handsome devil?</h1>
+                            <p>Julian is a developer pursuing his M.S. in Human-Computer Interaction at the University of Maryland.
+                                He's originally from Galveston, Texas (and would be very open to moving back to the bay area!). 
+                                On the side, he's a multi-musical-instrumentalist, game designer/developer, a collector of various trinkets and doodads,
+                                a part-time DJ, an avid gamer, and a die-hard independent animation fan. He's been designing and programming professionally for four years, 
+                                but he's been having fun making things for over a decade. Give him a chance!
+                            </p>
+                            <br>
+                            <center><a href="../links/links.html">Contact him here!</a></center>
                         </div>
-                        <img src="../../imgs/portrait.png" class="flexImageElement" width="250px" height="250px">
+                          <div class = "introContainerWhite" id  = "aboutPictureContainer">
+                            <div class="windows-black"></div>
+                            <img src = "../../imgs/portrait.gif"/>
+                        </div>
                     </div>
-                </div>
-                <div class = "footer">
-                     <p>Julian Bauer</p>
-                </div>
+                    <div class = "footer">
+                        <p>Julian Bauer</p>
+                    </div>
             </div>
+            <div class="square"></div>
         </div>
     </body>
 </html>

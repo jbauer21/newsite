@@ -3,8 +3,10 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <link rel="preload" href="../../bin/fonts/Doto-VariableFont_ROND.ttf" as="font" type="font/ttf"/>
-        <link rel="preload" href="../../imgs/nitw-background.png" as="image" type="image/png"/>  
+        <link rel="preload" href="../../bin/fonts/SourceSans3-VariableFont_wght.ttf" as="font" type="font/ttf"/>
+        <link rel="preload" href="../../imgs/asciiBackground.gif" as="image" type="image/gif"/>  
         <script src="https://iframe.chat/scripts/main.min.js"></script>
+        <script src = "./scripts.js"></script>
         <script>
             chattable.initialize({
                 theme: "Hacker Terminal"
@@ -12,6 +14,7 @@
         </script>
     </head>
     <body>
+        <div class="pixel_wrapper"></div>
         <div class="wrapper">
             <div class = "container">
                 <div class = "banner">
@@ -37,18 +40,31 @@
                         </ul>
                 </div>
                 <div class = "bodyContainer">
-                    <div class = "introContainerBlack" id="julianIntroContainer">
-                        <div class = "windows-white"></div>
-                        <h1>JULIAN IS A UX ENGINEER BASED IN COLLEGE PARK, MD</h1>
-                    </div>
-                    <div class = "introContainerWhite" id="julianIntroContainer2">
-                        <div class = "windows-black"></div>
-                            <h3>He really likes being employed! ^~^</h3>
+                    <div class = "centerFlex">
+                            <div class = "introContainerBlack" id="julianIntroContainer">
+                                <div class = "windows-white"></div>
+                                <h1>JULIAN IS A USER EXPERIENCE ENGINEER BASED IN COLLEGE PARK, MD</h1>
+                            </div>
+                            <div class = "introContainerBlack" id = "charizardImageContainer">
+                                <div class ="windows-white"></div>
+                                <img src = "../../imgs/charizardascii.gif" id="charizardAscii"/>
+                            </div>
+                            <div class = "introContainerWhite" id="julianIntroContainer2">
+                                <div class = "windows-black"></div>
+                                <h3>He really likes being employed! ^~^</h3>
+                            </div>
+                            <div class = "introContainerBlue" id="julianIntroContainer3">
+                                <div class = "windows-white"></div>
+                                <a href="../portfolio/portfolio.html">Wanna see his work?</a><br>
+                                <a href="../links/links.html">Or maybe contact him?</a>
+                            </div>
+                        </div>
                     </div>
                     <div class = "footer">
                         <p>Julian Bauer</p>
                     </div>
             </div>
+            <div class="square"></div>
         </div>
     </body>
 </html>
