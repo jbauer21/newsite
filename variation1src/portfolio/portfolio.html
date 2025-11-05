@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="./styles.css">
-        <link rel="preload" href="../../bin/fonts/MedodicaRegular.otf" as="font" type="font/otf"/> 
-        <link rel="preload" href="../../imgs/undertalecropped.jpg" as="image" type="image/jpg"/> 
-        <script src="./scripts.js" defer></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preload" href="../../bin/fonts/Doto-VariableFont_ROND.ttf" as="font" type="font/ttf"/>
+        <link rel="preload" href="../../bin/fonts/SourceSans3-VariableFont_wght.ttf" as="font" type="font/ttf"/>
+        <link rel="preload" href="../../imgs/asciiBackground.gif" as="image" type="image/gif"/>  
+        <script src = "./scripts.js"></script>
     </head>
     <body>
+        <div class="pixel_wrapper"></div>
         <div class="wrapper">
             <div class = "container">
                 <div class = "banner">
@@ -21,7 +23,7 @@
                                 <a href="../about/about.html">ABOUT</a>
                             </li>
                              <li>
-                                <a href="portfolio.html" style="color:#9257D1;">PORTFOLIO</a>
+                                <a href="portfolio.html" style="color:#0000FF;">PORTFOLIO</a>
                             </li>
                              <li>
                                 <a href="../blog/blog.html">BLOG</a>
@@ -32,26 +34,74 @@
                         </ul>
                 </div>
                 <div class = "bodyContainer">
-                 <div class = "portfolioContainer">
-                    <div class = "portfolioElement">
-                        <div class = "windows"></div>
-                        <div class="portfolioImageContainer"><img src="../../imgs/geosurfing.png" class="portfolioImage"></img></div>
-                        <div class = "portfolioTextContainer">
-                            <div class = "windows"></div>
-                                <div class="portfolioText">
-                                    <h1>Geosurfing!</h1>
-                                    <h2>An exploratory search engine designed to catalog, preserve, and educate users about the old web.</h2>
+                    <div class = "centerFlex">
+                            <div class = "introContainerBlack" id="blackPortfolioContainer">
+                                <div class = "windows-white"></div>
+                                <img src = "../../imgs/zuck.jpg"/>
+                                <li>
+                                    <ul>Full-Stack</ul>
+                                    <ul>Search Engine</ul>
+                                    <ul>Archives</ul>
+                                </li>
+                                <h1>Geosurfing!</h1>
+                                <p>Geosurfing is an exploratory search engine designed to catalog, preserve, and educate users about the old web.</p>
                                     <br>
-                                </div>
-                                <center><button class="caseStudyButton" onclick="window.location.href='https://geosurfing.net'" id="geosurfingLinkButton"">Link</button></center>
+                                <center><a href="https://geosurfing.net">Take me!</a></center>
                                 <br>
+                                <br>
+                            </div>
+                           <div class = "introContainerWhite" id="whitePortfolioContainer">
+                                <div class = "windows-black"></div>
+                                <img src = "../../imgs/zuck.jpg"/>
+                                <li>
+                                    <ul>Full-Stack</ul>
+                                    <ul>Search Engine</ul>
+                                    <ul>Archives</ul>
+                                </li>
+                                <h1>Geosurfing!</h1>
+                                <p>Geosurfing is an exploratory search engine designed to catalog, preserve, and educate users about the old web.</p>
+                                    <br>
+                                <center><a href="https://geosurfing.net">Take me!</a></center>
+                                <br>
+                                <br>
+                            </div>
+                            <div class = "introContainerWhite" id="whitePortfolioContainer">
+                                <div class = "windows-black"></div>
+                                <img src = "../../imgs/zuck.jpg"/>
+                                <li>
+                                    <ul>Full-Stack</ul>
+                                    <ul>Search Engine</ul>
+                                    <ul>Archives</ul>
+                                </li>
+                                <h1>Geosurfing!</h1>
+                                <p>Geosurfing is an exploratory search engine designed to catalog, preserve, and educate users about the old web.</p>
+                                    <br>
+                                <center><a href="https://geosurfing.net">Take me!</a></center>
+                                <br>
+                                <br>
+                            </div>
+                             <div class = "introContainerBlack" id="blackPortfolioContainer">
+                                <div class = "windows-white"></div>
+                                <img src = "../../imgs/zuck.jpg"/>
+                                <li>
+                                    <ul>Full-Stack</ul>
+                                    <ul>Search Engine</ul>
+                                    <ul>Archives</ul>
+                                </li>
+                                <h1>Geosurfing!</h1>
+                                <p>Geosurfing is an exploratory search engine designed to catalog, preserve, and educate users about the old web.</p>
+                                    <br>
+                                <center><a href="https://geosurfing.net">Take me!</a></center>
+                                <br>
+                                <br>
+                            </div>
                         </div>
                     </div>
-                 </div>
-                <div class = "footer">
-                     <p>Julian Bauer</p>
-                </div>
+                    <div class = "footer">
+                        <p>Julian Bauer</p>
+                    </div>
             </div>
+            <div class="square"></div>
         </div>
     </body>
 </html>
