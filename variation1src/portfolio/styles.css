@@ -260,6 +260,7 @@ body a:hover {
   margin-bottom: 0;
   height: auto;
   border-radius: 5px;
+  overflow: hidden;
   border: 3px solid #000
 }
 
