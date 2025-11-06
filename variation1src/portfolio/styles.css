@@ -72,10 +72,9 @@
 body {
   margin: 0;
   background-image: url(../../imgs/asciiBackground.gif);
-  min-height: 100vh;
-  background-size: 100vw 100%;
   background-repeat: no-repeat;
   background-position: top right;
+  background-attachment: fixed;
 }
 
 body a {

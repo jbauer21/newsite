@@ -71,11 +71,10 @@
 
 body {
   margin: 0;
-  background-image: url(https://media.wired.com/photos/6412391886d759ccf3cdd25c/master/pass/W30-HERO.gif);
-  min-height: 100vh;
-  background-size: 100vw 100%;
+  background-image: url(../../imgs/asciiBackground.gif);
   background-repeat: no-repeat;
   background-position: top right;
+  background-attachment: fixed;
 }
 
 body a {
