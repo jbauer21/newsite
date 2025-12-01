@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "MedodicaRegular"; /* A name you choose for your font */
+  src: url("../../bin/fonts/MedodicaRegular.otf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+.banner {
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%), url(https://media.istockphoto.com/id/938695332/photo/fluffy-clouds-hd-seamless-tiles-pattern-01.jpg?s=612x612&w=0&k=20&c=yOlzgKBaQYDn0hdy6VZpzTdhC5aHlTf2umXGRKR8LPI=);
+  padding: 10px;
+  max-height: 200px;
+  margin: 0;
+  display: block;
+  border: black;
+}
+.footer {
+  margin-bottom: 10px;
+  border-top: 1px solid;
+  color: white;
+}
+
+.footer p {
+  font-family: MedodicaRegular, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-family: MedodicaRegular, sans-serif;
+  color: #03b1fc;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+  font-size: 800%;
+  text-align: right;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #fff;
+}
+.wrapper {
+  border: white;
+  border-radius: 10px;
+  max-width: 1100px;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+}
+.sitemapList {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #fff;
+  border-left: 0px;
+  border-right: 0px;
+}
+.sitemapList li {
+  opacity: 1;
+  display: inline-block;
+  padding-right: 10%;
+}
+
+body {
+  margin: 0;
+  background-image: url(https://i.redd.it/8ldoa2yk0yg11.jpg);
+  min-height: 100vh;
+  background-size: 100vw 100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+body a {
+  font-family: MedodicaRegular, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+.windows {
+  width: var(--content-container);
+  background-color: #03b1fc;
+  background-image: url("../../imgs/window_buttons.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 10px;
+  border: 2px solid #017baf;
+  border-style:outset;
+  font-size: 12px;
+}
+
+.bodyContainer {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr; /* 20/60/20 */
+  gap: 10px;
+}
+
+.leftColumn{
+  display: block;
+}
+
+.columnElement{
+  height: 100%;
+  background-image: 
+    url(https://d2bzx2vuetkzse.cloudfront.net/fit-in/0x450/unshoppable_producs/f063ca6a-e84d-4807-acdb-bb5de0c5017a.png),
+    linear-gradient(to bottom,  #025C83, black);
+    border: 1px solid #fff;
+}
+
+.columnElement h1{
+  font-family: MedodicaRegular, sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  color:#fff;
+  font-size: 6em;
+  margin: 10px;
+}
+.columnElement img{
+  margin: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  height: auto;
+  width: 100%;
+}
+.textWindow{
+  margin: 10px;
+  border: 1px solid #fff;
+  background-position: left center;
+  image-rendering: pixelated, crisp-edges;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), linear-gradient(to top, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(https://i.ytimg.com/vi/lr9lvz1g7sc/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBMgTCh_MA8=&rs=AOn4CLAO_AHF2uX1RXuosXjpNAfXAK2kIg);
+}
+
+
+.textWindow h3{
+  font-family: MedodicaRegular, sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: left;
+  font-size: 2.1em;
+  margin: 10px;
+  color:#fff;
+}
+
+.twoItemFlexContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+#introText{
+  margin-top: 0px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), linear-gradient(to top, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(https://i.pinimg.com/originals/4d/04/32/4d0432bb05c8def9fa01017aa50bfbcd.gif);
+  background-position: center center;
+}
+
+#updates{
+  border-radius: 5px;
+  max-height: 200px; 
+  overflow: auto;
+  background-position: center top;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), linear-gradient(to top, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(https://i.pinimg.com/originals/eb/ed/a0/ebeda0827ce66b65213dd732a1e59d97.gif);
+}
+
+#updates::-webkit-scrollbar{
+  display: none;
+}
+
+#updates h3{
+  font-size: 1em;
+}
+
+#updateContainer{
+  height: 50%;
+  margin-bottom: 10px;
+}
+
+.audioWrap { 
+  margin: 0;
+  width: 100%; 
+  height: 10%
+}
+
+.audio { 
+  display: block;      /* remove inline gaps */
+  width: 100%;
+
+  max-height: 30px;
+  border: 0;
+  outline: 0;
+  font-family: "MedodicaRegular", system-ui, sans-serif;
+}
+
+/* WebKit/Chromium: remove gray background “chrome” */
+.audio::-webkit-media-controls-enclosure {
+border-radius: 0;
+background-color: transparent;
+}
+
+.audio::-webkit-media-controls-current-time-display,
+.audio::-webkit-media-controls-time-remaining-display {
+  color: #000;                     /* your color */
+  font-family: "MedodicaRegular", system-ui, sans-serif;
+  font-size: 14px;
+}
+
+.audio::-webkit-media-controls-enclosure {
+  filter: invert(1) hue-rotate(180deg) contrast(0.95);
+}
+
+
+.titleText{
+  margin-left: 10px;
+}
+.titleText h2, h3{
+  font-family: "MedodicaRegular";
+  color: white;
+  margin: 0;
+}
+
+.titleText h3{
+  font-style: italic;
+}
+
+.albumCover{
+  display: block;
+  width: auto;
+  height: 100%;
+  margin: 10px;
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+
+#musicContainer{
+  max-height: 47.5%;
+}
+
+#chattable{
+  width:100%;
+  height:95%;
+  border: none;
+}
+
+.rightColumn{
+  height: 100%;
+}
+

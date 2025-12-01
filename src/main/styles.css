@@ -1,12 +1,21 @@
 @font-face {
-  font-family: "MedodicaRegular"; /* A name you choose for your font */
-  src: url("../../bin/fonts/MedodicaRegular.otf");
+  font-family: "Doto"; /* A name you choose for your font */
+  src: url("../../bin/fonts/Doto-VariableFont_ROND.ttf");
   font-weight: normal; /* Define font weight if applicable */
   font-style: normal; /* Define font style if applicable */
   font-display: swap; /* Optimizes font loading behavior */
 }
+
+@font-face {
+  font-family: "SourceSansPro"; /* A name you choose for your font */
+  src: url("../../bin/fonts/SourceSans3-VariableFont_wght.ttf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+
 .banner {
-  background-image:linear-gradient(to bottom, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%), url(https://media.istockphoto.com/id/938695332/photo/fluffy-clouds-hd-seamless-tiles-pattern-01.jpg?s=612x612&w=0&k=20&c=yOlzgKBaQYDn0hdy6VZpzTdhC5aHlTf2umXGRKR8LPI=);
+  background-color: #000000;
   padding: 10px;
   max-height: 200px;
   margin: 0;
@@ -20,21 +29,20 @@
 }
 
 .footer p {
-  font-family: MedodicaRegular, sans-serif;
+  font-family: SourceSansPro, sans-serif;
   color: white;
   text-align: center;
 }
 
 .banner h1 {
-  font-family: MedodicaRegular, sans-serif;
-  color: #03b1fc;
-  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
-  font-size: 800%;
+  font-family: Doto, sans-serif;
+  color: #FFFFFF;
+  font-size: 127.88px;
   text-align: right;
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0,0,0,0.8);
   border: 1px solid #fff;
 }
 .wrapper {
@@ -49,6 +57,7 @@
   margin: 0 auto;
   text-align: center;
   border: 1px solid #fff;
+  background-color: white;
   border-left: 0px;
   border-right: 0px;
 }
@@ -56,193 +65,168 @@
   opacity: 1;
   display: inline-block;
   padding-right: 10%;
+  font-size: 20px;
+  font-family: SourceSansPro;
 }
 
 body {
   margin: 0;
-  background-image: url(https://i.redd.it/8ldoa2yk0yg11.jpg);
-  min-height: 100vh;
-  background-size: 100vw 100%;
+  background-image: url(../../imgs/asciiBackground.gif);
   background-repeat: no-repeat;
   background-position: top right;
+  background-attachment: fixed;
 }
+
 body a {
-  font-family: MedodicaRegular, sans-serif;
+  font-family: SourceSansPro, sans-serif;
   text-decoration: none;
-  color: white;
-  font-size: 150%;
+  color: black;
+  font-size: 
 }
 
 body a:hover {
   text-decoration: underline;
 }
 
-.windows {
+.windows-white {
   width: var(--content-container);
-  background-color: #03b1fc;
+  background-color: #FFFFFF;
   background-image: url("../../imgs/window_buttons.png");
   background-repeat: no-repeat;
   background-position: top right;
   padding: 10px;
-  border: 2px solid #017baf;
-  border-style:outset;
-  font-size: 12px;
 }
 
-.bodyContainer {
-  margin: 10px;
+.windows-black {
+  width: var(--content-container);
+  background-color: #000000; 
+  background-image: url("../../imgs/window_buttons_white.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 10px;
+}
+
+
+.introContainerWhite{
+  box-shadow: 
+  3px 3px  #FFFFFF, 
+  6px 6px  #000000,
+  9px 9px  #FFFFFF,
+  12px 12px  #000000; 
+  border: 3px solid #000; 
+  background-color: white;
+}
+
+.introContainerBlack{
+  box-shadow: 
+  3px 3px  #000, 
+  6px 6px  #fff,
+  9px 9px  #000,
+  12px 12px  #fff; 
+  border: 3px solid #FFF; 
+  background-color: black;
+}
+
+.introContainerBlue{
+  box-shadow: 
+  3px 3px  #000, 
+  6px 6px  #fff,
+  9px 9px  #000,
+  12px 12px  #fff; 
+  border: 3px solid #FFF; 
+  background-color: blue;
+}
+
+#julianIntroContainer h1{
+  color:white;
+  font-family: Doto;
+  font-size: 61.04px; 
+  margin: 10px; 
+}
+
+#julianIntroContainer{
+  margin: 20px;
+}
+
+#julianIntroContainer2 h3{
+  color:black;
+  font-family: SourceSansPro;
+  font-size: 39.06px; 
+  margin: 10px; 
+}
+
+#julianIntroContainer2{
+  margin: 20px;
+}
+#julianIntroContainer3{
+  margin: 20px;
+}
+
+#julianIntroContainer3 a {
+  line-height:70px;
+  color:white;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: SourceSansPro;
+  font-size: 39.06px; 
+  margin: 10px; 
+}
+.centerFlex{
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr; /* 20/60/20 */
-  gap: 10px;
-}
-
-.leftColumn{
-  display: block;
-}
-
-.columnElement{
-  height: 100%;
-  background-image: 
-    url(https://d2bzx2vuetkzse.cloudfront.net/fit-in/0x450/unshoppable_producs/f063ca6a-e84d-4807-acdb-bb5de0c5017a.png),
-    linear-gradient(to bottom,  #025C83, black);
-    border: 1px solid #fff;
-}
-
-.columnElement h1{
-  font-family: MedodicaRegular, sans-serif;
-  text-shadow: 2px 2px 4px #000000;
-  text-align: center;
-  color:#fff;
-  font-size: 6em;
-  margin: 10px;
-}
-.columnElement img{
-  margin: 10px;
-  margin-left: 0px;
-  margin-top: 0px;
-  border-radius: 5px;
-  border: 1px solid #fff;
-  height: auto;
-  width: 100%;
-}
-.textWindow{
-  margin: 10px;
-  border: 1px solid #fff;
-  background-position: left center;
-  image-rendering: pixelated, crisp-edges;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), linear-gradient(to top, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(https://i.ytimg.com/vi/lr9lvz1g7sc/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBMgTCh_MA8=&rs=AOn4CLAO_AHF2uX1RXuosXjpNAfXAK2kIg);
-}
-
-
-.textWindow h3{
-  font-family: MedodicaRegular, sans-serif;
-  text-shadow: 2px 2px 4px #000000;
-  text-align: left;
-  font-size: 2.1em;
-  margin: 10px;
-  color:#fff;
-}
-
-.twoItemFlexContainer {
-  display: flex;
-  flex-direction: row;
+  grid-template-columns: repeat(auto-fit, minmax(max(calc(50% - .5rem), 18.75rem), 1fr));
   align-items: stretch;
 }
 
-#introText{
-  margin-top: 0px;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), linear-gradient(to top, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(https://i.pinimg.com/originals/4d/04/32/4d0432bb05c8def9fa01017aa50bfbcd.gif);
-  background-position: center center;
+
+#charizardImageContainer{
+  justify-content: center;
+  margin: 20px;
 }
 
-#updates{
-  border-radius: 5px;
-  max-height: 200px; 
-  overflow: auto;
-  background-position: center top;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), linear-gradient(to top, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(https://i.pinimg.com/originals/eb/ed/a0/ebeda0827ce66b65213dd732a1e59d97.gif);
-}
-
-#updates::-webkit-scrollbar{
-  display: none;
-}
-
-#updates h3{
-  font-size: 1em;
-}
-
-#updateContainer{
-  height: 50%;
-  margin-bottom: 10px;
-}
-
-.audioWrap { 
-  margin: 0;
-  width: 100%; 
-  height: 10%
-}
-
-.audio { 
-  display: block;      /* remove inline gaps */
+#charizardAscii{
   width: 100%;
-
-  max-height: 30px;
-  border: 0;
-  outline: 0;
-  font-family: "MedodicaRegular", system-ui, sans-serif;
+  height: 95%; 
 }
 
-/* WebKit/Chromium: remove gray background “chrome” */
-.audio::-webkit-media-controls-enclosure {
-border-radius: 0;
-background-color: transparent;
+.pixel_wrapper {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 9999;
+  pointer-events: none; 
 }
 
-.audio::-webkit-media-controls-current-time-display,
-.audio::-webkit-media-controls-time-remaining-display {
-  color: #000;                     /* your color */
-  font-family: "MedodicaRegular", system-ui, sans-serif;
-  font-size: 14px;
+.pixel_column {
+  display: flex;
+  flex-direction: column;
 }
 
-.audio::-webkit-media-controls-enclosure {
-  filter: invert(1) hue-rotate(180deg) contrast(0.95);
+.pixel {
+  width: 100%;
+  background: #000;
+  opacity: 1;      
+  transition: none; 
+  will-change: opacity;
+}
+
+.pixel.revealed {
+  opacity: 0;     
 }
 
 
-.titleText{
-  margin-left: 10px;
-}
-.titleText h2, h3{
-  font-family: "MedodicaRegular";
-  color: white;
-  margin: 0;
+.active{
+    background: #000000;
 }
 
-.titleText h3{
-  font-style: italic;
-}
-
-.albumCover{
-  display: block;
-  width: auto;
-  height: 100%;
-  margin: 10px;
-  box-sizing: border-box;
-  margin-bottom: 0;
-}
-
-#musicContainer{
-  max-height: 47.5%;
-}
-
-#chattable{
-  width:100%;
-  height:95%;
-  border: none;
-}
-
-.rightColumn{
-  height: 100%;
+.square{
+    position: absolute;
+    bottom: 100px;
+    right: 5vw;
+    width: 15vw;
+    height: 15vw;
+    animation: flash .3s infinite;
 }
 

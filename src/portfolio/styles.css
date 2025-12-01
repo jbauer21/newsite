@@ -1,14 +1,21 @@
 @font-face {
-  font-family: "MedodicaRegular"; /* A name you choose for your font */
-  src: url("../../bin/fonts/MedodicaRegular.otf");
+  font-family: "Doto"; /* A name you choose for your font */
+  src: url("../../bin/fonts/Doto-VariableFont_ROND.ttf");
   font-weight: normal; /* Define font weight if applicable */
   font-style: normal; /* Define font style if applicable */
   font-display: swap; /* Optimizes font loading behavior */
 }
+
+@font-face {
+  font-family: "SourceSansPro"; /* A name you choose for your font */
+  src: url("../../bin/fonts/SourceSans3-VariableFont_wght.ttf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+
 .banner {
-  background-image:   linear-gradient(to bottom, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%),
-url(https://art.pixilart.com/thumb/d39d83b3546c7f4.png);
-  background-size: 100px;
+  background-color: #000000;
   padding: 10px;
   max-height: 200px;
   margin: 0;
@@ -16,30 +23,26 @@ url(https://art.pixilart.com/thumb/d39d83b3546c7f4.png);
   border: black;
 }
 .footer {
-  margin-top: 10px;
   margin-bottom: 10px;
   border-top: 1px solid;
   color: white;
 }
 
 .footer p {
-  font-family: MedodicaRegular, sans-serif;
+  font-family: SourceSansPro, sans-serif;
   color: white;
   text-align: center;
 }
 
 .banner h1 {
-  font-family: MedodicaRegular, sans-serif;
-  color: #9257D1;
-  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
-  font-size: 800%;
+  font-family: Doto, sans-serif;
+  color: #FFFFFF;
+  font-size: 127.88px;
   text-align: right;
 }
 
 .container {
-  z-index: 1;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0,0,0,0.8);
   border: 1px solid #fff;
 }
 .wrapper {
@@ -53,147 +56,240 @@ url(https://art.pixilart.com/thumb/d39d83b3546c7f4.png);
 .sitemapList {
   margin: 0 auto;
   text-align: center;
-  background-color: #0d0d0d;
   border: 1px solid #fff;
+  background-color: white;
   border-left: 0px;
   border-right: 0px;
 }
 .sitemapList li {
-  align-items: center;
+  opacity: 1;
   display: inline-block;
   padding-right: 10%;
+  font-size: 20px;
+  font-family: SourceSansPro;
 }
+
 body {
   margin: 0;
-  background-image: url(../../imgs/undertalecropped.jpg);
+  background-image: url(../../imgs/asciiBackground.gif);
   background-repeat: no-repeat;
-  background-size: fill;
-  background-position: center 50vh;
-  
-  background-color: black;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
+  background-position: top right;
+  background-attachment: fixed;
 }
+
 body a {
-  font-family: MedodicaRegular, sans-serif;
+  font-family: SourceSansPro, sans-serif;
   text-decoration: none;
-  color: white;
-  font-size: 150%;
+  color: black;
+  font-size: 
 }
 
 body a:hover {
   text-decoration: underline;
 }
 
-.windows {
+.windows-white {
   width: var(--content-container);
-  background-color: #9257D1;
+  background-color: #FFFFFF;
   background-image: url("../../imgs/window_buttons.png");
   background-repeat: no-repeat;
   background-position: top right;
   padding: 10px;
-  border: 2px solid #5d2c91;
-  border-style:outset;
-  font-size: 12px;
 }
 
-.portfolioContainer{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    display: grid;
-    overflow-y: auto;
-    max-height: 60vh;
-    grid-template-columns: 50% 50%;
+.windows-black {
+  width: var(--content-container);
+  background-color: #000000; 
+  background-image: url("../../imgs/window_buttons_white.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 10px;
 }
 
-.portfolioContainer::-webkit-scrollbar{
-  display: none;
+
+.introContainerWhite{
+  box-shadow: 
+  3px 3px  #FFFFFF, 
+  6px 6px  #000000,
+  9px 9px  #FFFFFF,
+  12px 12px  #000000; 
+  border: 3px solid #000; 
+  background-color: white;
 }
 
-.portfolioElement { 
-    margin-right: 10px;
-    margin-bottom: 10px;
-    max-height: fit-content;
-    border: 1px solid #fff;
-    background-image: 
-        url(https://d2bzx2vuetkzse.cloudfront.net/fit-in/0x450/unshoppable_producs/f063ca6a-e84d-4807-acdb-bb5de0c5017a.png),
-        linear-gradient(to bottom,  #5d2c91, black);
-}  
-
-.portfolioText {
-  margin: 15px;
-  background-image: linear-gradient(to bottom, #9257D1, #04ff00);
-  -webkit-background-clip: text; /* Chrome, Safari */
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent; /* Required for Webkit browsers */
-}
-
-.portfolioText h1{
-    color:white;
-    font-family: MedodicaRegular, sans-serif;
-    font-style: bold;
-    font-size: 7vh;
-    margin-top: 10px;
-    margin-bottom: 0;
-
-}
-.portfolioText h2{
-    color:white;
-    font-style: italic;
-    font-size: 3vh;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-family: MedodicaRegular, sans-serif;
-
-}
-.portfolioText h3{
-    color:white;
-    font-family: MedodicaRegular, sans-serif;
-    font-size: 3vh;
-    margin-bottom: 5px;
-}
-
-.portfolioImage{
-    width:100%;
-    border-radius: 5px;
-    border: 1px solid #fff;
-    height: 50%;
-}
-.portfolioImageContainer{
-    margin:10px;
-}
-
-.portfolioTextContainer{
-    margin:10px;
-    border: 1px solid #fff;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), linear-gradient(to top, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(../../imgs/glowingbackground.gif);
-    background-size: 100%;
-    background-position: center top;
-    height: auto;
-
-}
-
-.caseStudyButton {
-  font-family: 'MedodicaRegular' , sans-serif;
-  font-size: 24px;
-  color: yellow;
+.introContainerBlack{
+  box-shadow: 
+  3px 3px  #000, 
+  6px 6px  #fff,
+  9px 9px  #000,
+  12px 12px  #fff; 
+  border: 3px solid #FFF; 
   background-color: black;
-  border: 3px solid yellow;
-  padding: 12px 40px;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  display: inline-block;
-  margin-top: 10px;
 }
 
-.caseStudyButton:hover {
-  transform: scale(1.05);
+.introContainerBlue{
+  box-shadow: 
+  3px 3px  #000, 
+  6px 6px  #fff,
+  9px 9px  #000,
+  12px 12px  #fff; 
+  border: 3px solid #FFF; 
+  background-color: blue;
 }
 
-.albumCover{
-  width:50%;
+.centerFlex{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(calc(50% - .5rem), 18.75rem), 1fr));
+  align-items: stretch;
+}
+
+.pixel_wrapper {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 9999;
+  pointer-events: none; 
+}
+
+.pixel_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.pixel {
+  width: 100%;
+  background: #000;
+  opacity: 1;      
+  transition: none; 
+  will-change: opacity;
+}
+
+.pixel.revealed {
+  opacity: 0;     
+}
+
+.active{
+    background: #000000;
+}
+
+.square{
+    position: absolute;
+    bottom: 100px;
+    right: 5vw;
+    width: 15vw;
+    height: 15vw;
+    animation: flash .3s infinite;
+}
+
+#blackPortfolioContainer h1{
+  color:white;
+  font-family: Doto;
+  font-size: 47.78px; 
+  margin: 10px;
+  line-height: 20px;
+}
+
+#blackPortfolioContainer p{
+  color:white;
+  font-family: SourceSansPro;
+  font-size: 19.2px; 
+  margin: 10px; 
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+#blackPortfolioContainer img{
+  width: 95%;
+  margin: 10px;
+  margin-bottom: 0;
   height: auto;
+  border-radius: 5px;
+  border: 3px solid #fff
 }
+
+#blackPortfolioContainer a{
+  color:white;
+  font-family: SourceSansPro;
+  font-size: 23.04px; 
+  margin: 10px; 
+  text-decoration: underline;
+}
+
+#blackPortfolioContainer li{
+  color:white;
+  font-family: SourceSansPro;
+  font-size: 16px; 
+  margin: 10px; 
+  font-style: italic;
+  display: flex;
+}
+
+#blackPortfolioContainer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 4px;
+}
+#blackPortfolioContainer{
+  margin: 20px;
+}
+
+
+#whitePortfolioContainer h1{
+  color:black;
+  font-family: Doto;
+  font-size: 47.78px; 
+  margin: 10px;
+  line-height: 20px;
+}
+
+#whitePortfolioContainer p{
+  color:black;
+  font-family: SourceSansPro;
+  font-size: 19.2px; 
+  margin: 10px; 
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+#whitePortfolioContainer img{
+  width: 95%;
+  margin: 10px;
+  margin-bottom: 0;
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 3px solid #000
+}
+
+#whitePortfolioContainer a{
+  color:black;
+  font-family: SourceSansPro;
+  font-size: 23.04px; 
+  margin: 10px; 
+  text-decoration: underline;
+}
+
+#whitePortfolioContainer li{
+  color:black;
+  font-family: SourceSansPro;
+  font-size: 16px; 
+  margin: 10px; 
+  font-style: italic;
+  display: flex;
+}
+
+#whitePortfolioContainer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 4px;
+}
+#whitePortfolioContainer{
+  margin: 20px;
+}
+
+
+
+

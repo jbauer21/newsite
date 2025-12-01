@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "MedodicaRegular"; /* A name you choose for your font */
+  src: url("../../bin/fonts/MedodicaRegular.otf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+.banner {
+  background-image:   linear-gradient(to bottom, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%),
+url(https://art.pixilart.com/thumb/d39d83b3546c7f4.png);
+  background-size: 100px;
+  padding: 10px;
+  max-height: 200px;
+  margin: 0;
+  display: block;
+  border: black;
+}
+.footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid;
+  color: white;
+}
+
+.footer p {
+  font-family: MedodicaRegular, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-family: MedodicaRegular, sans-serif;
+  color: #9257D1;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+  font-size: 800%;
+  text-align: right;
+}
+
+.container {
+  z-index: 1;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #fff;
+}
+.wrapper {
+  border: white;
+  border-radius: 10px;
+  max-width: 1100px;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+}
+.sitemapList {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #0d0d0d;
+  border: 1px solid #fff;
+  border-left: 0px;
+  border-right: 0px;
+}
+.sitemapList li {
+  align-items: center;
+  display: inline-block;
+  padding-right: 10%;
+}
+body {
+  margin: 0;
+  background-image: url(../../imgs/undertalecropped.jpg);
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-position: center 50vh;
+  
+  background-color: black;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+body a {
+  font-family: MedodicaRegular, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+.windows {
+  width: var(--content-container);
+  background-color: #9257D1;
+  background-image: url("../../imgs/window_buttons.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 10px;
+  border: 2px solid #5d2c91;
+  border-style:outset;
+  font-size: 12px;
+}
+
+.portfolioContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: grid;
+    overflow-y: auto;
+    max-height: 60vh;
+    grid-template-columns: 50% 50%;
+}
+
+.portfolioContainer::-webkit-scrollbar{
+  display: none;
+}
+
+.portfolioElement { 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-height: fit-content;
+    border: 1px solid #fff;
+    background-image: 
+        url(https://d2bzx2vuetkzse.cloudfront.net/fit-in/0x450/unshoppable_producs/f063ca6a-e84d-4807-acdb-bb5de0c5017a.png),
+        linear-gradient(to bottom,  #5d2c91, black);
+}  
+
+.portfolioText {
+  margin: 15px;
+  background-image: linear-gradient(to bottom, #9257D1, #04ff00);
+  -webkit-background-clip: text; /* Chrome, Safari */
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent; /* Required for Webkit browsers */
+}
+
+.portfolioText h1{
+    color:white;
+    font-family: MedodicaRegular, sans-serif;
+    font-style: bold;
+    font-size: 7vh;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+.portfolioText h2{
+    color:white;
+    font-style: italic;
+    font-size: 3vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: MedodicaRegular, sans-serif;
+
+}
+.portfolioText h3{
+    color:white;
+    font-family: MedodicaRegular, sans-serif;
+    font-size: 3vh;
+    margin-bottom: 5px;
+}
+
+.portfolioImage{
+    width:100%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    height: 50%;
+}
+.portfolioImageContainer{
+    margin:10px;
+}
+
+.portfolioTextContainer{
+    margin:10px;
+    border: 1px solid #fff;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), linear-gradient(to top, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%), url(../../imgs/glowingbackground.gif);
+    background-size: 100%;
+    background-position: center top;
+    height: auto;
+
+}
+
+.caseStudyButton {
+  font-family: 'MedodicaRegular' , sans-serif;
+  font-size: 24px;
+  color: yellow;
+  background-color: black;
+  border: 3px solid yellow;
+  padding: 12px 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.caseStudyButton:hover {
+  transform: scale(1.05);
+}
+
+.albumCover{
+  width:50%;
+  height: auto;
+}

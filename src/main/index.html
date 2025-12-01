@@ -2,16 +2,13 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-        <link rel="preload" href="../../bin/fonts/MedodicaRegular.otf" as="font" type="font/otf"/>
-        <link rel="preload" href="../../imgs/nitw-background.png" as="image" type="image/png"/>  
-        <script src="https://iframe.chat/scripts/main.min.js"></script>
-        <script>
-            chattable.initialize({
-                theme: "Hacker Terminal"
-            });
-        </script>
+        <link rel="preload" href="../../bin/fonts/Doto-VariableFont_ROND.ttf" as="font" type="font/ttf"/>
+        <link rel="preload" href="../../bin/fonts/SourceSans3-VariableFont_wght.ttf" as="font" type="font/ttf"/>
+        <link rel="preload" href="../../imgs/asciiBackground.gif" as="image" type="image/gif"/>  
+        <script src = "./scripts.js"></script>
     </head>
     <body>
+        <div class="pixel_wrapper"></div>
         <div class="wrapper">
             <div class = "container">
                 <div class = "banner">
@@ -20,7 +17,7 @@
                 <div class = "sitemapList">
                         <ul>
                             <li>
-                                <a href="index.html" style="color:#03b1fc;">HOME</a>
+                                <a href="index.html" style="color:#0000FF;">HOME</a>
                             </li>
                              <li>
                                 <a href="../about/about.html">ABOUT</a>
@@ -37,62 +34,31 @@
                         </ul>
                 </div>
                 <div class = "bodyContainer">
-                    <div class = "leftColumn">
-                        <div class = "columnElement" id="updateContainer">
-                            <div class="windows"></div>
-                            <div class="textWindow" id="updates">
-                                <h3>10/22/2025: FINISHED THE HOMEPAGE!! Now I just need to change this stupid chattable theme. </h3>
-                                <h3>10/20/2025: Added the about page so I can, you know, talk about myself or something!</h3>
-                                <h3>10/16/2025: Finally getting rid of my old junker ass AI generated site! Making this one all on my own!</h3>
+                    <div class = "centerFlex">
+                            <div class = "introContainerBlack" id="julianIntroContainer">
+                                <div class = "windows-white"></div>
+                                <h1>JULIAN IS A USER EXPERIENCE ENGINEER BASED IN COLLEGE PARK, MD</h1>
                             </div>
-                        </div>
-                          <div class = "columnElement" id="musicContainer">
-                            <div class = "musicContainer">
-                                <div class="windows"></div>
-                                <div class="albumCover">
-                                    <img src = "../../imgs/beach.gif">
-                                </div>
-                                <div class = "titleText">
-                                    <h2>Nostalgia</h2>
-                                    <h3>Unknown</h3>
-                                </div>
-                                <div class="audioWrap">
-                                    <audio id="myAudio" class="audio" controls
-                                            preload="none"
-                                            controlslist="nodownload noplaybackrate">
-                                        <source src="../../bin/audio/homepage.mp3" type="audio/mpeg">
-                                        Your browser does not support the audio element.
-                                    </audio>
-                                </div>
+                            <div class = "introContainerBlack" id = "charizardImageContainer">
+                                <div class ="windows-white"></div>
+                                <img src = "../../imgs/charizardascii.gif" id="charizardAscii"/>
+                            </div>
+                            <div class = "introContainerWhite" id="julianIntroContainer2">
+                                <div class = "windows-black"></div>
+                                <h3>He really likes being employed! ^~^</h3>
+                            </div>
+                            <div class = "introContainerBlue" id="julianIntroContainer3">
+                                <div class = "windows-white"></div>
+                                <a href="../portfolio/portfolio.html">Wanna see his work?</a><br>
+                                <a href="../links/links.html">Or maybe contact him?</a>
                             </div>
                         </div>
                     </div>
-                    <div class = "centerColumn">
-                        <div class = "columnElement">
-                            <div class="windows"></div>
-                            <div class="textWindow">
-                                <h1>WELCOME TO MY SITE!</h1>
-                            </div>
-                            <div class = "twoItemFlexContainer">
-                            <div class="textWindow" id="introText">
-                                <div class="windows"></div>
-                                <h3>Hi! I'm Julian! I'm an XR Interaction designer and Programmer that likes games, music, and animation! Stay awhile!</h3>
-                            </div>
-                            <img src = "../../imgs/bye-bye-pokemon.gif" alt = "pikachu"></img>
-                            </div>
-                        </div>
+                    <div class = "footer">
+                        <p>Julian Bauer</p>
                     </div>
-                <div class = "rightColumn">
-                        <div class ="columnElement">
-                            <div class="windows"></div>
-                            <iframe src="https://iframe.chat/embed?chat=28559419" id="chattable"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div class = "footer">
-                     <p>Julian Bauer</p>
-                </div>
             </div>
+            <div class="square"></div>
         </div>
     </body>
 </html>
