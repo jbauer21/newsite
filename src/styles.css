@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Doto"; /* A name you choose for your font */
+  src: url("bin/fonts/Doto-VariableFont_ROND.ttf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+
+@font-face {
+  font-family: "SourceSansPro"; /* A name you choose for your font */
+  src: url("bin/fonts/SourceSans3-VariableFont_wght.ttf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+
+.windows-white {
+  width: var(--content-container);
+  background-color: #FFFFFF;
+  background-image: url("imgs/window_buttons.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 10px;
+}
+
+.windows-black {
+  width: var(--content-container);
+  background-color: #000000; 
+  background-image: url("imgs/window_buttons_white.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 10px;
+}
+
+
+.introContainerWhite{
+  box-shadow: 
+  3px 3px  #FFFFFF, 
+  6px 6px  #000000,
+  9px 9px  #FFFFFF,
+  12px 12px  #000000; 
+  border: 3px solid #000; 
+  background-color: white;
+}
+
+.introContainerBlack{
+  box-shadow: 
+  3px 3px  #000, 
+  6px 6px  #fff,
+  9px 9px  #000,
+  12px 12px  #fff; 
+  border: 3px solid #FFF; 
+  background-color: black;
+}
+
+.introContainerBlue{
+  box-shadow: 
+  3px 3px  #000, 
+  6px 6px  #fff,
+  9px 9px  #000,
+  12px 12px  #fff; 
+  border: 3px solid #FFF; 
+  background-color: blue;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+    background-color: #000;
+}
+#warningContainer a {
+  color:white;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 25px;
+  margin: 10px; 
+  font-family: "SourceSansPro";
+}
+
+#warningContainer h1 {
+  color:white;
+  font-style: italic;
+  font-size: 61.04px; 
+  margin: 10px; 
+  font-family: "Doto";
+}
+
+#warningContainer p {
+  color:white;
+  font-style: italic;
+  font-family: "SourceSansPro";
+  font-size: 31.25px;
+  margin: 10px; 
+}
+
+#warningContainer{
+  width: 40%;
+  height: 40%;
+}
+.flexContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

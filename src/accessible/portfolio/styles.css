@@ -1,0 +1,295 @@
+@font-face {
+  font-family: "Doto"; /* A name you choose for your font */
+  src: url("../../bin/fonts/Doto-VariableFont_ROND.ttf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+
+@font-face {
+  font-family: "SourceSansPro"; /* A name you choose for your font */
+  src: url("../../bin/fonts/SourceSans3-VariableFont_wght.ttf");
+  font-weight: normal; /* Define font weight if applicable */
+  font-style: normal; /* Define font style if applicable */
+  font-display: swap; /* Optimizes font loading behavior */
+}
+
+.banner {
+  background-color: #000000;
+  padding: 10px;
+  max-height: 200px;
+  margin: 0;
+  display: block;
+  border: black;
+}
+.footer {
+  margin-bottom: 10px;
+  border-top: 1px solid;
+  color: white;
+}
+
+.footer p {
+  font-family: SourceSansPro, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-family: Doto, sans-serif;
+  color: #FFFFFF;
+  font-size: 127.88px;
+  text-align: right;
+}
+
+.container {
+  background-color: rgba(0,0,0,0.8);
+  border: 1px solid #fff;
+}
+.wrapper {
+  border: white;
+  border-radius: 10px;
+  max-width: 1100px;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+}
+.sitemapList {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: white;
+  border-left: 0px;
+  border-right: 0px;
+}
+.sitemapList li {
+  opacity: 1;
+  display: inline-block;
+  padding-right: 10%;
+  font-size: 20px;
+  font-family: SourceSansPro;
+}
+
+body {
+  margin: 0;
+  background-image: url(../../imgs/asciiBackground.gif);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-attachment: fixed;
+}
+
+body a {
+  font-family: SourceSansPro, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+.windows-white {
+  width: var(--content-container);
+  background-color: #FFFFFF;
+  background-image: url("../../imgs/window_buttons.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 10px;
+}
+
+.windows-black {
+  width: var(--content-container);
+  background-color: #000000; 
+  background-image: url("../../imgs/window_buttons_white.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 10px;
+}
+
+
+.introContainerWhite{
+  box-shadow: 
+  3px 3px  #FFFFFF, 
+  6px 6px  #000000,
+  9px 9px  #FFFFFF,
+  12px 12px  #000000; 
+  border: 3px solid #000; 
+  background-color: white;
+}
+
+.introContainerBlack{
+  box-shadow: 
+  3px 3px  #000, 
+  6px 6px  #fff,
+  9px 9px  #000,
+  12px 12px  #fff; 
+  border: 3px solid #FFF; 
+  background-color: black;
+}
+
+.introContainerBlue{
+  box-shadow: 
+  3px 3px  #000, 
+  6px 6px  #fff,
+  9px 9px  #000,
+  12px 12px  #fff; 
+  border: 3px solid #FFF; 
+  background-color: blue;
+}
+
+.centerFlex{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(calc(50% - .5rem), 18.75rem), 1fr));
+  align-items: stretch;
+}
+
+.pixel_wrapper {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 9999;
+  pointer-events: none; 
+}
+
+.pixel_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.pixel {
+  width: 100%;
+  background: #000;
+  opacity: 1;      
+  transition: none; 
+  will-change: opacity;
+}
+
+.pixel.revealed {
+  opacity: 0;     
+}
+
+.active{
+    background: #000000;
+}
+
+.square{
+    position: absolute;
+    bottom: 100px;
+    right: 5vw;
+    width: 15vw;
+    height: 15vw;
+    animation: flash .3s infinite;
+}
+
+#blackPortfolioContainer h1{
+  color:white;
+  font-family: Doto;
+  font-size: 47.78px; 
+  margin: 10px;
+  line-height: 20px;
+}
+
+#blackPortfolioContainer p{
+  color:white;
+  font-family: SourceSansPro;
+  font-size: 19.2px; 
+  margin: 10px; 
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+#blackPortfolioContainer img{
+  width: 95%;
+  margin: 10px;
+  margin-bottom: 0;
+  height: auto;
+  border-radius: 5px;
+  border: 3px solid #fff
+}
+
+#blackPortfolioContainer a{
+  color:white;
+  font-family: SourceSansPro;
+  font-size: 23.04px; 
+  margin: 10px; 
+  text-decoration: underline;
+}
+
+#blackPortfolioContainer li{
+  color:white;
+  font-family: SourceSansPro;
+  font-size: 16px; 
+  margin: 10px; 
+  font-style: italic;
+  display: flex;
+}
+
+#blackPortfolioContainer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 4px;
+}
+#blackPortfolioContainer{
+  margin: 20px;
+}
+
+
+#whitePortfolioContainer h1{
+  color:black;
+  font-family: Doto;
+  font-size: 47.78px; 
+  margin: 10px;
+  line-height: 20px;
+}
+
+#whitePortfolioContainer p{
+  color:black;
+  font-family: SourceSansPro;
+  font-size: 19.2px; 
+  margin: 10px; 
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+#whitePortfolioContainer img{
+  width: 95%;
+  margin: 10px;
+  margin-bottom: 0;
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 3px solid #000
+}
+
+#whitePortfolioContainer a{
+  color:black;
+  font-family: SourceSansPro;
+  font-size: 23.04px; 
+  margin: 10px; 
+  text-decoration: underline;
+}
+
+#whitePortfolioContainer li{
+  color:black;
+  font-family: SourceSansPro;
+  font-size: 16px; 
+  margin: 10px; 
+  font-style: italic;
+  display: flex;
+}
+
+#whitePortfolioContainer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 4px;
+}
+#whitePortfolioContainer{
+  margin: 20px;
+}
+
+
+
+
