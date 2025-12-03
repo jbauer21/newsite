@@ -137,31 +137,32 @@ body a:hover {
   background-color: blue;
 }
 
-#aboutTextContainer{
+#linksContainer {
   margin:20px;
 }
 
-#aboutTextContainer h1{
+#linksContainer h1{
   color:white;
   font-family: Doto;
-  font-size: 48.83px; 
+  font-size: 89.76px; 
   margin: 10px; 
+  text-align: center;
 }
 
-#aboutTextContainer p{
+#linksContainer h3{
   color:white;
   font-family: SourceSansPro;
-  font-size: 20px; 
+  font-size: 21.33px; 
   margin: 10px; 
+  text-align: center;
 }
-
-#aboutTextContainer a {
+#linksContainer a{
   color:white;
   font-family: SourceSansPro;
-  font-size: 25px;
-  text-decoration: underline;
+  font-size: 21.33px; 
+  margin: 10px; 
+  text-align: center;
 }
-
 .pixel_wrapper {
   position: fixed;
   inset: 0;
@@ -208,14 +209,4 @@ body a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(max(calc(50% - .5rem), 18.75rem), 1fr));
   align-items: stretch;
-}
-
-#aboutPictureContainer{
-  margin:20px;
-  overflow: hidden;
-}
-
-#aboutPictureContainer img{
-  height: auto;
-  width: 100%;
 }
